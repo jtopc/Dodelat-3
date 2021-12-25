@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 80px;
+   
+}
+.upper{
+    margin-top: 20px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.ru{
+ background: rgb(118, 236, 118);
+ color: white;
+ border-radius: 15%;
+}
+.nomer{
+    width: 60px;
+    height: 50px;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.yazik{
+    border-right: 1px solid black;
+    height: 45px;
+    border-left: 1px solid black;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.mesenger{
+    height: 45px;
+    padding-right: 20px;
+    padding-left: 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.dengi{
+    height: 45px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.maiistra{
+    position: relative;
+    background-color: gainsboro;
+ width: 200px;
+ height: 45px;
+ border-radius: 5px;
+ text-align: center;
+}
+.left{
+    float: left;
+    width:  45px;
+    height: 45px;
+    border-top-right-radius:5%;
+    border-bottom-right-radius: 5px;
+    background-color: #DD4053;
+}
+.qwerty{
+    position: absolute;
+    top: 30px;
+    font-size: larger;
+}
+.ooooo{
+    position: fixed;
+    left: 30px;
+    top: 30px;
+}
+.ppppp{
+    position: fixed;
+    top: 30px;
+}
+
+.line{
+    position: absolute;
+    display: flex;
+    text-align: center;
+}
+.td{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+li{
+margin-left: 25px;
+list-style: none;
+justify-items: center;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.header2{
+    display: flex;
+    justify-content: space-around;
+    background: white;
+    height: 70px;
+    margin-top: 10px;
+}
+.poo{
+    width: 19px;
+    height: 17px;
+}
+li:hover{
+    border-bottom: 1px solid rgb(248, 0, 0);
+}
+.header3{
+    width: 100%;
+    height: 490px;
+    color: whitesmoke;
+    background: url(/maxresdefault\ \(1\)\ 2\ \(1\).png) no-repeat;
+    
+}
+.kartinka{
+width: 100%;
+height: 490px;
+background-repeat: no-repeat;
+}
+.POPPP{
+border: 1px solid white;
+position: absolute;
+width: 249px;
+height: 45px;
+left: 199px;
+top: 274px;
+font-size: medium;
+}
+.text-center{
+    position: absolute;
+width: 725px;
+height: 102px;
+left: 195px;
+top: 335px;
+font-size: 45px;
+}
+
+.podrobney{
+position: absolute;
+width: 270px;
+height: 60px;
+left: 200px;
+top: 477px;
+background: linear-gradient(180deg, rgba(153, 152, 152, 0.1) 14.37rgba(160, 156, 156, 0.8).8) 100%);
+border-radius: 2px;
+}
